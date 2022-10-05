@@ -57,15 +57,14 @@ MSDS692 S40 Data Science Practicum
         + Would run models in the background while at work and overnight
         + Even with GPU processing and filtered data, I was still dealing with 9-18million rows of data.
       + Learned that best practice neural net batch size (32, 64, 128, 256..) because it aligns with how GPUs work and increases processing efficiency/speed
-  + Tensorflow functional API method
-    + Don’t have to use the functional API method, I just prefer it.
-	Model outputs:
-•	Used dimensionality reduction to plot the embeddings developed by the model in 2D
-o	PCA – primary component analysis
-o	TSNE - t-distributed Stochastic Neighbor Embedding
-o	UMAP - Uniform Manifold Approximation and Projection
-•	Plotted scatterplots, coloring by the ten book genres
-•	Plotted scatterplots, two tone of a single book genre vs the aggregated remaining genres
-•	The actual recommender function takes a user ID and outputs the top 5 book recommendations
-•	Took the same concept of the dimensionality reduction plots but overlaid the books I’ve read and the recommendations the model made to show how they relate to each other
- 
+    + Tensorflow functional API method
+      + Don’t have to use the functional API method, I just prefer it.
+  + Model outputs:
+    + Used dimensionality reduction to plot the embeddings developed by the model in 2D
+      + PCA – primary component analysis
+      + TSNE - t-distributed Stochastic Neighbor Embedding
+      + UMAP - Uniform Manifold Approximation and Projection
+    + Plotted scatterplots, coloring by the ten book genres
+    + Plotted scatterplots, two tone of a single book genre vs the aggregated remaining genres
+    + The actual recommender function takes a user ID and outputs the top 5 book recommendations
+      + Took the same concept of the dimensionality reduction plots but overlaid the books I’ve read and the recommendations the model made to show how they relate to each other
