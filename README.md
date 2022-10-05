@@ -68,3 +68,7 @@ MSDS692 S40 Data Science Practicum
     + Plotted scatterplots, two tone of a single book genre vs the aggregated remaining genres
     + The actual recommender function takes a user ID and outputs the top 5 book recommendations
       + Took the same concept of the dimensionality reduction plots but overlaid the books I’ve read and the recommendations the model made to show how they relate to each other
+ 
+ 
+ 
+## References
