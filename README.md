@@ -42,23 +42,23 @@ MSDS692 S40 Data Science Practicum
     + Import book data, wrangle, clean
     + Import review data
     + Merge books and reviews
-	EDA: some basic functions and plots
-•	Info, describe, value counts, scatter plot, histogram, etc
-•	There really isn’t much to explore when your data consists of user ID’s, book ID’s, book titles, and user ratings.
-o	EDA wasn’t a big part of the project
-	Modeling:
-•	Tensorflow gpu
-o	Running into computer resource issues
-	Models were taking a long time running on CPU
-	Google collab throttled/restricted my account within an hour of use
-	Had to adapt and setup jupyter notebooks/tensorflow to run on gpu
-	Neural nets trained much faster and it didn’t consume my CPU/RAM
-	Learned that best practice neural net batch size (32, 64, 128, 256..) because it aligns with how GPUs work and increases processing efficiency/speed
-•	Tensorflow functional API method
-o	Don’t have to use the functional API method, I just prefer it.
-•	Would run models in the background while at work and overnight
-o	Even with GPU processing and filtered data, I was still dealing with 9-18million rows of data.
-	Model training reduced to 6-10 hours from the previous 30 hours.
+  + EDA: some basic functions and plots
+    + Info, describe, value counts, scatter plot, histogram, etc
+    + There really isn’t much to explore when your data consists of user ID’s, book ID’s, book titles, and user ratings.
+    + EDA wasn’t a big part of the project
+  + Modeling:
+    + Tensorflow gpu
+      + Running into computer resource issues
+      + Models were taking a long time running on CPU
+      + Google collab throttled/restricted my account within an hour of use
+      + Had to adapt and setup jupyter notebooks/tensorflow to run on gpu
+      + Neural nets trained much faster and it didn’t consume my CPU/RAM
+        + Model training reduced to 6-10 hours from the previous 30 hours.
+        + Would run models in the background while at work and overnight
+        + Even with GPU processing and filtered data, I was still dealing with 9-18million rows of data.
+      + Learned that best practice neural net batch size (32, 64, 128, 256..) because it aligns with how GPUs work and increases processing efficiency/speed
+  + Tensorflow functional API method
+    + Don’t have to use the functional API method, I just prefer it.
 	Model outputs:
 •	Used dimensionality reduction to plot the embeddings developed by the model in 2D
 o	PCA – primary component analysis
