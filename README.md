@@ -137,19 +137,11 @@ def book_rec(user_id):
  
  After that, you can see how the user's previously rated books relate to the recommended books.
  
+ ![PCA recommendations](https://github.com/DarrellS0352/msds692_s40_data_science_practicum_1/blob/9f9d1dfe9fbd0c8de7b35b80592d1bcbfba83dc4/images/Recs%20PCA.PNG)
  
-
-+ How
-
-  + Model outputs:
-    + Used dimensionality reduction to plot the embeddings developed by the model in 2D
-      + PCA – primary component analysis
-      + TSNE - t-distributed Stochastic Neighbor Embedding
-      + UMAP - Uniform Manifold Approximation and Projection
-    + Plotted scatterplots, coloring by the ten book genres
-    + Plotted scatterplots, two tone of a single book genre vs the aggregated remaining genres
-    + The actual recommender function takes a user ID and outputs the top 5 book recommendations
-      + Took the same concept of the dimensionality reduction plots but overlaid the books I’ve read and the recommendations the model made to show how they relate to each other
+ ![TSNE recommendations](https://github.com/DarrellS0352/msds692_s40_data_science_practicum_1/blob/9f9d1dfe9fbd0c8de7b35b80592d1bcbfba83dc4/images/Recs%20TSNE.PNG)
+ 
+ ![UMAP recommendations](https://github.com/DarrellS0352/msds692_s40_data_science_practicum_1/blob/9f9d1dfe9fbd0c8de7b35b80592d1bcbfba83dc4/images/Recs%20umap.PNG)
  
  
  
