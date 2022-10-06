@@ -13,7 +13,7 @@ Neural collaborative filtering (NCF) combines neural networks and collaborative 
 
 ## The Data
 
-The data used is a subset of the Amazon review data (2018). The primary review data contains all types of items found on Amazon, but only the book data was used. The book review data consisted of 51,311,621 reviews.
+The data used is a subset of the Amazon review data (2018). The primary review data contains all types of items found on Amazon, but only the book data was used. The book review data consisted of 51,311,621 reviews. The review The book metadata contained 2,935,525 books. The compressed file sizes were 11.81 gb review data and 1.22 gb metadata. There were numerous variables in each, but only the book ID, book title, and book category (genre) was imported from the book metadata file while the user ID, book ID, user rating, and review text was imported in the reviews file.
 + How
   + High level: python, jupyter notebooks, laptop
   + Data: where I got the data from
