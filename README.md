@@ -134,6 +134,10 @@ def book_rec(user_id):
     recommended_books = books.loc[books.book_id.isin(prediction_ids)]
     return recommended_books
  ```
+ 
+ After that, you can see how the user's previously rated books relate to the recommended books.
+ 
+ 
 
 + How
 
