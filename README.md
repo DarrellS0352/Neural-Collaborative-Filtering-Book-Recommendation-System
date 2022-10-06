@@ -10,24 +10,6 @@ Recommendation systems generate lists of items a user might be interested in. A 
 Neural collaborative filtering (NCF) combines neural networks and collaborative filtering based on the user-item interactions. It essentially comes down to user ID, item ID, and the user rating. It takes the user ID's and item ID's as inputs, feeds them through matrix factorization, and then through a Multi-Layer Perceptron Network (MLP). Mapping the user-item ratings along the way.
 ![ncf diagram](https://github.com/DarrellS0352/msds692_s40_data_science_practicum_1/blob/4995b3984cb928918e2fa4605f2d15b558a08d2b/images/ncf%20diagram.png)
 
-+ When
-  + Proposed project timeline
-    + Week 1 Project proposal
-    + Week 2 Data ingestion and wrangling
-    + Week 3 EDA and data cleaning
-    + Week 4 Model building, visualizations, model outputs (recommendations)
-    + Week 5/6 reconsidering bells and whistles to improve project (cloud/visualization tools/web scraping/review text analysis/etc)
-    + Week 7 Final touches and working on presentation
-    + Week 8 Working on presentation and presenting
-  + Actual project timeline
-    + Week 1 Project proposal, data ingestion and wrangling
-    + Week 2 Data ingestion, wrangling, and modeling iteratively
-    + Week 3 Data wrangling, modeling, and model output development iteratively
-    + Week 4 Data wrangling, modeling, and model output development iteratively
-    + Week 5 Data wrangling, modeling, and model output development iteratively
-    + Week 6 Data wrangling, modeling, and model output development iteratively
-    + Week 7 Wrapping up modeling, code, and development. Start project deliverables.
-    + Week 8 Finish project deliverables. Presentation.
 + How
   + High level: python, jupyter notebooks, laptop
   + Data: where I got the data from
