@@ -47,7 +47,7 @@ amazon_reviews = load_amazon_review_data(os.path.join(input_filepath, 'AmazonBoo
 
 Following the raw data import it could be loaded into a Pandas Dataframe.
 
-
+![raw data merged DF](https://github.com/DarrellS0352/msds692_s40_data_science_practicum_1/blob/7209d956b9924ae53c81a6ff2bb5f579b1579aaf/images/raw%20data%20merged%20DF.PNG)
 
 
 + How
