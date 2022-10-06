@@ -6,7 +6,7 @@ MSDS692 S40 Data Science Practicum
 + What
   + neural collaborative filtering book recommendation system
   + Recommendation systems generate lists of items a user might be interested in. A well known example of this is movie recommendation in Netflix, Hulu, or streaming content providers. 
-  + Collaborative filtering
+  + Collaborative filtering recommendation systems recommend items based on what the user is interested in compared to what similar users are interested in. In this case, it is based on book ratings.
   + Neural networks
 + When
   + Proposed project timeline
