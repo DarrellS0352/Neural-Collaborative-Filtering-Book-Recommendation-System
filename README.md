@@ -35,7 +35,6 @@ def load_amazon_review_data(file_name, nrows = 100000000):
                 d2['book_id'] = d.get('asin')
                 d2['rating'] = d.get('overall')
                 d2['review_text'] = d.get('reviewText')
-
                 data.append(d2)
                 counter += 1
             # nrows break
