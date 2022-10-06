@@ -49,7 +49,7 @@ Following the raw data import it could be loaded into a Pandas Dataframe.
 
 ![raw data merged DF](https://github.com/DarrellS0352/msds692_s40_data_science_practicum_1/blob/7209d956b9924ae53c81a6ff2bb5f579b1579aaf/images/raw%20data%20merged%20DF.PNG)
 
-After some data exploration and testing, it became apparent the data was still too large. Therefore, book genre and ratings count filtering was implemented. I ended up taking the top ten highest frequency book genres and only using books that had fifty or more ratings. Some additional wrangling was done to the Literature & Fiction genre because it had sub-genres that were the same as other major genres (ex: mystery thriller under literature & fiction being moved the the mystery, thriller, & suspense genre).
+After some data exploration and testing, it became apparent the data was still too large. Therefore, book genre and ratings count filtering was implemented. I ended up taking the top ten highest frequency book genres and only using books that had fifty or more ratings. Some additional wrangling was done to the Literature & Fiction genre because it had sub-genres that were the same as other major genres (ex: mystery thriller under literature & fiction being moved the the mystery, thriller, & suspense genre). The remaining literature & fiction sub-genres were labeled as genre fiction.
 
 ![genre freqs](https://github.com/DarrellS0352/msds692_s40_data_science_practicum_1/blob/2e861b7bea6ecc18347fd28da5c5a8872060a6ab/images/genre%20freqs.PNG)
 
