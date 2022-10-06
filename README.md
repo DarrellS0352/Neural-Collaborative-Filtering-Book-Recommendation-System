@@ -45,6 +45,10 @@ def load_amazon_review_data(file_name, nrows = 100000000):
 amazon_reviews = load_amazon_review_data(os.path.join(input_filepath, 'AmazonBooks.json.gz'))
 ```
 
+Following the raw data import it could be loaded into a Pandas Dataframe.
+
+![pandas DF raw data](https://github.com/DarrellS0352/msds692_s40_data_science_practicum_1/blob/506132f239e89c68b2e1575db5576592c2307149/images/raw%20data%20in%20dataframe.PNG)
+
 
 + How
   + Data ingestion/wrangling: gzip, json, and pandas
