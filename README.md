@@ -68,7 +68,7 @@ It also seems most people who take the time to review something give positive re
 Using myself as a guineau pig, I found books in the data that I've read and appended my own ratings to the dataset to provide a fuzzy method of assessing recommendations made by the model. The model architecture was simple. It takes the book ID input and user ID input, creates embeddings, and runs them through a few dense layers using dropout for regularization. 
 
 ```
-output_dim = 10 # larger number = higher capacity model prone to overfitting - extends trainin time
+output_dim = 10 # larger number = higher capacity model prone to overfitting - extends training time
 
 # book embedding layer
 input_books = Input(shape=[1], name='book_input')
