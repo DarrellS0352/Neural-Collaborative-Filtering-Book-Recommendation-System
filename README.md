@@ -65,10 +65,6 @@ It also seems most people who take the time to review something give positive re
 
 
 + How
-  + EDA: some basic functions and plots
-    + Info, describe, value counts, scatter plot, histogram, etc
-    + There really isn’t much to explore when your data consists of user ID’s, book ID’s, book titles, and user ratings.
-    + EDA wasn’t a big part of the project
   + Modeling:
     + Tensorflow gpu
       + Running into computer resource issues
