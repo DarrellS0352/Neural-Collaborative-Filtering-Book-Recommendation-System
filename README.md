@@ -112,7 +112,7 @@ Given the unsupervised nature of the effort, three different dimensionality redu
 
 ![TSNE plot](https://github.com/DarrellS0352/msds692_s40_data_science_practicum_1/blob/b2b5e3e15808da9a9b1cb50808d9fa60b738c795/images/tsne%20output%20all%20genres.PNG)
 
-There was a lot of overlap in the fiction genres (mystery, fiction, science fiction and fantasy). It was interesting to find Christian books and bibles, children's books, and the self-help type books were overlapping each other but largely removed from the fiction genres.
+There was a lot of overlap in the fiction genres (mystery, fiction, science fiction and fantasy). It was interesting to find Christian books and bibles, children's books, and the self-help type books were overlapping each other but largely removed from the fiction genres. The below plots have a single book genre in black with the remaining genres in red.
 
 ![TSNE mystery](https://github.com/DarrellS0352/msds692_s40_data_science_practicum_1/blob/b2b5e3e15808da9a9b1cb50808d9fa60b738c795/images/tsne%20output%20mystery.PNG)
 
