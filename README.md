@@ -98,6 +98,7 @@ model.compile(
     loss='mean_squared_error'
 )
 ```
+![model architecture](https://github.com/DarrellS0352/msds692_s40_data_science_practicum_1/blob/bab6fcefbfedf7fd2f1529ad9b4f803c807647dd/images/model.png)
 
 + How
   + Modeling:
