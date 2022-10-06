@@ -63,6 +63,41 @@ It also seems most people who take the time to review something give positive re
 
 ![rating distribution](https://github.com/DarrellS0352/msds692_s40_data_science_practicum_1/blob/8622cdb71a2e851c03c7edd33ab0185601d7da88/images/EDA%20rating%20distribution.PNG)
 
+## Modeling
+
+Using myself as a guineau pig, I found books in the data that I've read and appended my own ratings to the dataset to provide a fuzzy method of assessing recommendations made by the model. The model architecture was simple. It takes the book ID input and user ID input, creates embeddings, and runs them through a few dense layers using dropout for regularization. 
+
+```
+output_dim = 10 # larger number = higher capacity model prone to overfitting - extends trainin time
+
+# book embedding layer
+input_books = Input(shape=[1], name='book_input')
+embed_books = Embedding(book_n + 1, output_dim, name='book_embed')(input_books)
+embed_books_output = Flatten(name='book_embed_output')(embed_books)
+
+# user embedding layer
+input_users = Input(shape=[1], name='user_input')
+embed_users = Embedding(user_n + 1, output_dim, name='user_embed')(input_users)
+embed_users_output = Flatten(name='user_embed_output')(embed_users)
+
+concat = Concatenate()([embed_books_output, embed_users_output])
+concat_dropout = Dropout(0.2)(concat)
+dense1 = Dense(128, activation='relu')(concat_dropout)
+dense1_dropout = Dropout(0.2)(dense1)
+dense2 = Dense(64, activation='relu')(dense1_dropout)
+dense2_dropout = Dropout(0.2)(dense2)
+
+output = Dense(1, name='output', activation='relu')(dense2_dropout)
+
+model = Model(inputs=[input_books, input_users], outputs=output)
+
+optimizer = Adam()
+
+model.compile(
+    optimizer=optimizer, 
+    loss='mean_squared_error'
+)
+```
 
 + How
   + Modeling:
