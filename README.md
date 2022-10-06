@@ -61,8 +61,6 @@ Given the data consisted of user ID's, book ID's, book titles, and user ratings,
 
 ![rating distribution](https://github.com/DarrellS0352/msds692_s40_data_science_practicum_1/blob/8622cdb71a2e851c03c7edd33ab0185601d7da88/images/EDA%20rating%20distribution.PNG)
 
-![rating count vs mean](https://github.com/DarrellS0352/msds692_s40_data_science_practicum_1/blob/8622cdb71a2e851c03c7edd33ab0185601d7da88/images/EDA%20rating%20count%20vs%20rating%20mean%20scatter%20plot.PNG)
-
 
 + How
   + EDA: some basic functions and plots
