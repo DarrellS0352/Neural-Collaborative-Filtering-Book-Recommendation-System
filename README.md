@@ -19,7 +19,8 @@ The data used is a subset of the Amazon review data (2018). The primary review d
 
 The project was completed using Python 3.8 in Jupyter Notebooks on a laptop. The laptop ended up being a bottleneck. With limited storage and computing resources, alternate methods were devised to avoid crashing the IDE. Standard methods like a Pandas import were not working so custom functions using the same framework were designed to import data. These functions used the gzip, json, and os libraries to read through the compressed files, pull the desired fields from each row, and load them into a dictionary. For development purposes, row count limiting functionality was also built into it.
 
-"""def load_amazon_review_data(file_name, nrows = 100000000):
+```
+def load_amazon_review_data(file_name, nrows = 100000000):
     counter = 0
     data = []
     # loading compressed json file
@@ -41,7 +42,8 @@ The project was completed using Python 3.8 in Jupyter Notebooks on a laptop. The
                 break
     return data
 # load data
-amazon_reviews = load_amazon_review_data(os.path.join(input_filepath, 'AmazonBooks.json.gz'))"""
+amazon_reviews = load_amazon_review_data(os.path.join(input_filepath, 'AmazonBooks.json.gz'))
+```
 
 
 + How
