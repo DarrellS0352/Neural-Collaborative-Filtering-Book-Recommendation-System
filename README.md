@@ -5,7 +5,9 @@ MSDS692 S40 Data Science Practicum
 ## Introduction
 + What
   + neural collaborative filtering book recommendation system
-  + go into more detail about these
+  + Recommendation systems generate lists of items a user might be interested in. A well known example of this is movie recommendation in Netflix, Hulu, or streaming content providers. 
+  + Collaborative filtering
+  + Neural networks
 + When
   + Proposed project timeline
     + Week 1 Project proposal
