@@ -106,7 +106,17 @@ Training times were excessive due to the data size, which was over 13 million ro
 
 Given the unsupervised nature of the effort, three different dimensionality reduction methods were used to plot and assess the embedding weight outputs of the model. Principle Component Analysis (PCA), T-Distributed Stochastic Neighbor Embedding (TSNE), and Uniform Manifold Approximation and Projection (UMAP). All were used to reduce the ouptuts to two dimensions to be viewed using scatter plots. The book genres were represented with colors.
 
+![PCA plot](https://github.com/DarrellS0352/msds692_s40_data_science_practicum_1/blob/b2b5e3e15808da9a9b1cb50808d9fa60b738c795/images/pca%20output%20all%20genres.PNG)
 
+![UMAP plot](https://github.com/DarrellS0352/msds692_s40_data_science_practicum_1/blob/b2b5e3e15808da9a9b1cb50808d9fa60b738c795/images/umap%20output%20all%20genres.PNG)
+
+![TSNE plot](https://github.com/DarrellS0352/msds692_s40_data_science_practicum_1/blob/b2b5e3e15808da9a9b1cb50808d9fa60b738c795/images/tsne%20output%20all%20genres.PNG)
+
+There was a lot of overlap in the fiction genres (mystery, fiction, science fiction and fantasy). It was interesting to find Christian books and bibles, children's books, and the self-help type books were overlapping each other but largely removed from the fiction genres.
+
+![TSNE mystery](https://github.com/DarrellS0352/msds692_s40_data_science_practicum_1/blob/b2b5e3e15808da9a9b1cb50808d9fa60b738c795/images/tsne%20output%20mystery.PNG)
+
+![TSNE bibles](https://github.com/DarrellS0352/msds692_s40_data_science_practicum_1/blob/b2b5e3e15808da9a9b1cb50808d9fa60b738c795/images/tsne%20output%20bibles.PNG)
 
 + How
 
