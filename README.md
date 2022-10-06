@@ -100,22 +100,10 @@ model.compile(
 ```
 ![model architecture](https://github.com/DarrellS0352/msds692_s40_data_science_practicum_1/blob/bab6fcefbfedf7fd2f1529ad9b4f803c807647dd/images/model.png)
 
-Training times were excessive due to the data size, which was over 13 million rows after the prior filtering. Running on CPU it would take 20-30 hours to run. I attempted to move to the cloud using Google Colab but they rapidly throttled my account and cut me off. Therefore, I setup my laptop to train the neural network using the GPU. This made training much faster and if you 
+Training times were excessive due to the data size, which was over 13 million rows after the prior filtering. Running on CPU it would take 20-30 hours to run. I attempted to move to the cloud using Google Colab but they rapidly throttled my account and cut me off. Therefore, I setup my laptop to train the neural network using the GPU. This made training much faster and if you setup the batch size to fit the GPU (64, 128, 256, 512, etc.), it is even more efficient. 
 
 + How
-  + Modeling:
-    + Tensorflow gpu
-      + Running into computer resource issues
-      + Models were taking a long time running on CPU
-      + Google collab throttled/restricted my account within an hour of use
-      + Had to adapt and setup jupyter notebooks/tensorflow to run on gpu
-      + Neural nets trained much faster and it didn’t consume my CPU/RAM
-        + Model training reduced to 6-10 hours from the previous 30 hours.
-        + Would run models in the background while at work and overnight
-        + Even with GPU processing and filtered data, I was still dealing with 9-18million rows of data.
-      + Learned that best practice neural net batch size (32, 64, 128, 256..) because it aligns with how GPUs work and increases processing efficiency/speed
-    + Tensorflow functional API method
-      + Don’t have to use the functional API method, I just prefer it.
+
   + Model outputs:
     + Used dimensionality reduction to plot the embeddings developed by the model in 2D
       + PCA – primary component analysis
