@@ -118,6 +118,23 @@ There was a lot of overlap in the fiction genres (mystery, fiction, science fict
 
 ![TSNE bibles](https://github.com/DarrellS0352/msds692_s40_data_science_practicum_1/blob/b2b5e3e15808da9a9b1cb50808d9fa60b738c795/images/tsne%20output%20bibles.PNG)
 
+### Recommendations
+
+Making recommendations is as simple as making predictions for any other model. You just have to point it toward the appropriate user. The function created limited the recommendations to five books.
+
+```
+def book_rec(user_id):
+    book_id = list(reviews.book_id.unique())
+    book_array = np.array(book_id)
+    user_array = np.array([user_id for i in range(len(book_id))])
+    prediction = model.predict([book_array, user_array])
+    prediction = prediction.reshape(-1)
+    prediction_ids = np.argsort(-prediction)[0:5]
+    
+    recommended_books = books.loc[books.book_id.isin(prediction_ids)]
+    return recommended_books
+ ```
+
 + How
 
   + Model outputs:
