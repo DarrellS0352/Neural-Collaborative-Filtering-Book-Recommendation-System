@@ -55,9 +55,11 @@ After some data exploration and testing, it became apparent the data was still t
 
 ## Exploratory Data Analysis
 
-Given the data consisted of user ID's, book ID's, book titles, and user ratings, an in depth EDA was not necessary. There is the review text but that was earmarked for some extra text analysis functionality which was de-scoped from the project. 
+Given the data consisted of user ID's, book ID's, book titles, and user ratings, an in depth EDA was not necessary. There is the review text but that was earmarked for some extra text analysis functionality which was de-scoped from the project. I've noticed when browsing books myself that books that have popular movies tend to have the most ratings and I think the data supports the theory.
 
 ![most reviewed books](https://github.com/DarrellS0352/msds692_s40_data_science_practicum_1/blob/8622cdb71a2e851c03c7edd33ab0185601d7da88/images/EDA%20most%20reviewed%20books.PNG)
+
+It also seems most people who take the time to review something give positive reviews. It may be a systemic flaw for recommendation systems if people do not share their negative feedback which could improve recommendation performance.
 
 ![rating distribution](https://github.com/DarrellS0352/msds692_s40_data_science_practicum_1/blob/8622cdb71a2e851c03c7edd33ab0185601d7da88/images/EDA%20rating%20distribution.PNG)
 
