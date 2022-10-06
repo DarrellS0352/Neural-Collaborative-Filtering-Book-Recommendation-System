@@ -53,22 +53,11 @@ After some data exploration and testing, it became apparent the data was still t
 
 ![genre freqs](https://github.com/DarrellS0352/msds692_s40_data_science_practicum_1/blob/2e861b7bea6ecc18347fd28da5c5a8872060a6ab/images/genre%20freqs.PNG)
 
+## Exploratory Data Analysis
+
+Given the data consisted of user ID's, book ID's, book titles, and user ratings, an in depth EDA was not necessary. There is the review text but that was earmarked for some extra text analysis functionality which was de-scoped from the project. 
+
 + How
-  + Data ingestion/wrangling: gzip, json, and pandas
-    + Files were so large I kept crashing google chrome and jupyter notebooks
-    + Had limited hard drive space
-    + Had to filter data to smaller sizes for project feasibility
-    + Initially started with data from Goodreads and Amazon
-    + Goodreads book categories were very messy, and I quickly realized cleaning them to a usable standard would take too long for project feasibility
-    + Stopped using Goodreads data
-    + Tried random sampling
-    + Eventually decided to use the top 10 most popular genres
-    + Had to do some extra wrangling because Literature & Fiction genre had sub-genres that overlap with other major genres
-    + Kept having to iterate so I setup the code where I would only have to change which book genres to select or add minimal additional code and run the whole notebook in order to produce a new file
-    + Manual book genre filtering/selection through iteration and most useful
-    + Import book data, wrangle, clean
-    + Import review data
-    + Merge books and reviews
   + EDA: some basic functions and plots
     + Info, describe, value counts, scatter plot, histogram, etc
     + There really isn’t much to explore when your data consists of user ID’s, book ID’s, book titles, and user ratings.
