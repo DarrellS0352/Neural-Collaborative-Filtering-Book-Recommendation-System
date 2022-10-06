@@ -17,7 +17,9 @@ The data used is a subset of the Amazon review data (2018). The primary review d
 
 ## Data Ingestion and Wrangling
 
-The project was completed using Python 3.8 in Jupyter Notebooks on a laptop. The laptop ended up being a bottleneck. With limited storage and computing resources, alternate methods were devised to avoid crashing the IDE. 
+The project was completed using Python 3.8 in Jupyter Notebooks on a laptop. The laptop ended up being a bottleneck. With limited storage and computing resources, alternate methods were devised to avoid crashing the IDE. Standard methods like a Pandas import were not working so custom functions using the same framework were designed to import data. These functions used the gzip, json, and os libraries to read through the compressed files, pull the desired fields from each row, and load them into a dictionary. For development purposes, row count limiting functionality was also built into it.
+
+
 + How
   + Data ingestion/wrangling: gzip, json, and pandas
     + Files were so large I kept crashing google chrome and jupyter notebooks
