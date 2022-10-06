@@ -100,6 +100,8 @@ model.compile(
 ```
 ![model architecture](https://github.com/DarrellS0352/msds692_s40_data_science_practicum_1/blob/bab6fcefbfedf7fd2f1529ad9b4f803c807647dd/images/model.png)
 
+Training times were excessive due to the data size, which was over 13 million rows after the prior filtering. Running on CPU it would take 20-30 hours to run. I attempted to move to the cloud using Google Colab but they rapidly throttled my account and cut me off. Therefore, I setup my laptop to train the neural network using the GPU. This made training much faster and if you 
+
 + How
   + Modeling:
     + Tensorflow gpu
