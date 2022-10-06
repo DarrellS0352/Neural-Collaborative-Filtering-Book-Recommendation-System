@@ -102,6 +102,12 @@ model.compile(
 
 Training times were excessive due to the data size, which was over 13 million rows after the prior filtering. Running on CPU it would take 20-30 hours to run. I attempted to move to the cloud using Google Colab but they rapidly throttled my account and cut me off. Therefore, I setup my laptop to train the neural network using the GPU. This made training much faster and if you setup the batch size to fit the GPU (64, 128, 256, 512, etc.), it is even more efficient. 
 
+## Model Outputs
+
+Given the unsupervised nature of the effort, three different dimensionality reduction methods were used to plot and assess the embedding weight outputs of the model. Principle Component Analysis (PCA), T-Distributed Stochastic Neighbor Embedding (TSNE), and Uniform Manifold Approximation and Projection (UMAP). All were used to reduce the ouptuts to two dimensions to be viewed using scatter plots. The book genres were represented with colors.
+
+
+
 + How
 
   + Model outputs:
