@@ -11,6 +11,9 @@ Neural collaborative filtering (NCF) combines neural networks and collaborative 
 
 ![ncf diagram](https://github.com/DarrellS0352/msds692_s40_data_science_practicum_1/blob/4995b3984cb928918e2fa4605f2d15b558a08d2b/images/ncf%20diagram.png)
 
+## The Data
+
+The data used is a subset of the Amazon review data (2018). The primary review data contains all types of items found on Amazon, but only the book data was used. The book review data consisted of 51,311,621 reviews.
 + How
   + High level: python, jupyter notebooks, laptop
   + Data: where I got the data from
