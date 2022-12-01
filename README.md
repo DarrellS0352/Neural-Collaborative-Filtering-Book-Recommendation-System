@@ -142,7 +142,8 @@ def book_rec(user_id):
  
  ![UMAP recommendations](https://github.com/DarrellS0352/msds692_s40_data_science_practicum_1/blob/9f9d1dfe9fbd0c8de7b35b80592d1bcbfba83dc4/images/Recs%20umap.PNG)
  
- 
+ ## Additional
+ An extension of this project that provides aspect-based and topic modeling-based sentiment analysis for the user reviews of a book that was completed in my second practicum course can be found at [GitHub Pages](https://github.com/DarrellS0352/msds696_x70_data_science_practicum_2/blob/main/README.md)
  
 ## References
 Ni, J., Li, J., McAuley, J. (2019). Justifying Recommendations using Distantly-Labeled Reviews and Fine-Grained Aspects. Proceedings of the 2019 Conference on        Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP), 188–197.   http://dx.doi.org/10.18653/v1/D19-1018 
