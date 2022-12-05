@@ -4,7 +4,7 @@
 ## Introduction
 Recommendation systems generate lists of items a user might be interested in. A well-known example of this is movie recommendation in streaming content providers like Netflix or Hulu. Collaborative filtering recommendation systems suggest items for a user based on what similar users are interested in. In this case, it is book ratings. This can be accomplished without knowing anything about the item's content such as genre, actor, or author. Those are used in content filtering recommendation systems and is out of scope for this project. It is useful that you can make recommendations for a user based on other users. However, when an item has no ratings then there is nothing to link it between users. This is known as the cold start problem.
   
-![collab filtering diagram](https://github.com/DarrellS0352/msds692_s40_data_science_practicum_1/blob/fca1428cb1223c21aceb25b46d3ce43d7d928362/images/collaborative%20filtering%20diagram.png)
+!(https://github.com/DarrellS0352/msds692_s40_data_science_practicum_1/blob/fca1428cb1223c21aceb25b46d3ce43d7d928362/images/collaborative%20filtering%20diagram.png)
 
 Neural collaborative filtering (NCF) combines neural networks and collaborative filtering. It essentially comes down to user ID, item ID, and the user rating. It takes the user ID's and item ID's as inputs, feeds them through matrix factorization, and then through a Multi-Layer Perceptron Network (MLP). Mapping the user-item ratings along the way. It is possible to include more inputs in the equation such as what users click on.
 
